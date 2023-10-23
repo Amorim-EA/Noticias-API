@@ -6,16 +6,18 @@
 
 body {
     font-family: 'Poppins';
+    background-color: #222;
+    color: #fff;
 }
 
 header { 
-    padding: 10px;
+    padding: 20px;
     width: 100%;
     height: auto;
     min-height: 60px; 
-    background: #5b7bbc;
+    background: #333;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -23,16 +25,25 @@ header {
 .buscar {
     display: flex;
     padding: 0;
+    margin-top: 10px;
 }
 
 input {
-    width: 230px;
-    height: 20px;
+    width: 240px;
+    height: 25px;
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 3px;
 }
 
 button{
-    width: 55px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
+    background-image: url(../images/lupa.jpg);
+    background-size: cover;
+    border: none;
+    border-radius: 15px;
 }
 
 h1 {
@@ -47,11 +58,14 @@ main {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-auto-rows: max-content; 
     grid-auto-flow: row dense;
+    max-width: 75%;
+    margin: auto;
+    margin-top: 20px;
 }
 
 .article {
     padding: 1rem;
-    box-shadow: 3px 3px 3px 4px rgb(216, 216, 216);
+    box-shadow: 3px 3px 3px 4px #333;
 }
 
 .article img {

@@ -12,7 +12,7 @@ if ('serviceWorker' in navigator) {
     });
   }
 
-const apiKey = 'e531a884462e463aa1ccd0b3178ddcef';
+const apiKey = '5421b8e72b174a15aca9dd67713a1569';
 const main = document.querySelector('main');
 let url = `https://newsapi.org/v2/everything?q=Apple&apiKey=${apiKey}`; 
 

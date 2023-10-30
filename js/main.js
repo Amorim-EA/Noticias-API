@@ -13,8 +13,9 @@ if ('serviceWorker' in navigator) {
   }
 
 const apiKey = '5421b8e72b174a15aca9dd67713a1569';
+const params = 'AI';
 const main = document.querySelector('main');
-let url = `https://newsapi.org/v2/everything?q=Apple&apiKey=${apiKey}`; 
+let url = `https://newsapi.org/v2/everything?q=${params}&apiKey=${apiKey}`; 
 
 async function postNews() {
     const res = await fetch(url); 

@@ -6,7 +6,7 @@ import { ExpirationPlugin } from 'workbox-expiration';
 
 // configurando o cache
 const pageCache = new CacheFirst({
-  cacheName: 'capivara-cache',
+  cacheName: 'portal-noticias',
   plugins: [
     new CacheableResponsePlugin({
       statuses: [0, 200],
